@@ -1,5 +1,4 @@
 # Programmer: Amrit Bhaganagare 12619462 and Venkata Dheeraj Reddy Busireddy 12576469
-# Class: CS 5300
 
 class Table:
     
@@ -9,11 +8,11 @@ class Table:
         tuples: 'list[tuple[str]]' = []
     ):
         self.columns: list[str] = columns
-       703  
+        
         self.tuples: 'list[tuple[str]]' = []
         for tuple in tuples:
             self.add_tuple(tuple)
-        +
+        
         # These will be set in other functions
         self.primary_key: list[int] = []
         self.funct_depends: 'list[tuple[list[int], list[int]]]'= []
